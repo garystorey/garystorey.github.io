@@ -1,0 +1,28 @@
+
+
+$white:#fdfdfd;
+$black:#333;
+
+$darkgrey:#3d3e42;
+$primary:#808890;
+$alt:#4a4e51;
+$secondary:#ECD078;
+$tertiary:#66cc99;
+
+$time:1s;
+
+
+@mixin breakpoint($point) {
+  @if $point == xl {
+    @media (max-width: 1500px)  { @content; }
+  }
+  @if $point == lg {
+    @media (max-width: 1200px)  { @content; }
+  }
+  @if $point == md {
+    @media (max-width: 850px)  { @content; }
+  }
+  @else if $point == sm {
+    @media (max-width: 450px)  { @content; }
+  }
+}

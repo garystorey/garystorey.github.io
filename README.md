@@ -1,2 +1,1 @@
-# garystorey.github.io
-Resume of Gary Storey
+# Resume of Gary Storey
