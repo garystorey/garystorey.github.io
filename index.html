@@ -39,6 +39,9 @@
             I am passionate about creating unique and engaging online experiences using the latest front-end technologies.
           </blockquote>
         </div>
+        <div class="print-button clearfix">
+            <button class="printbtn">Print Resume</button>
+        </div>
       </section>
 
       <section class="experience section-padding fl clearfix">
@@ -108,33 +111,21 @@
               </ul>
             </div>
           </div>
-<!--
-          <div class="job-wrap">
-            <div class="title"><i class="fa fa-asterisk" aria-hidden="true"></i>&nbsp; Analyst I/II, Help Desk</div>
-            <div class="time">Aug 1997 - Sep 2000</div>
-            <div class="company-description">
-              <p>Created knowledge base system used by the Help Desk to facilitate training.
-                Worked with teams to understand support issues related to their software and system.
-                Handle support isssues across the entire Macys organization.
-              </p>
-              <ul class="tags clearfix">
-                <li><span class="tag">HTML</span></li>
-                <li><span class="tag">CSS</span></li>
-                <li><span class="tag">JavaScript</span></li>
-                <li><span class="tag">SQL</span></li>
-              </ul>
-            </div>
-          </div>
--->
+          <p>&nbsp;</p>
         </section>
         <div class="clearfix"></div>
         <section class="footer"></section>
         </div>
  
-    <!--
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-    <script src="resume.js"></script>
-     -->
+    <script>
+    (function(){
+      'use strict';
+      document.addEventListener('DOMContentLoaded', function(){
+        document.querySelector('.printbtn').addEventListener('click', function() { print(); });        
+      });
+      
+    })();
+    </script>
 
   </body>
 

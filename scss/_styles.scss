@@ -73,6 +73,16 @@ blockquote  {
     margin-bottom:4rem;
 }
 
+.print-button {
+    text-align:center;
+}
+.print-button button {
+    background-color:$tertiary;
+    border:1px solid $primary;
+    padding:1rem 2rem;
+    margin:1rem;
+}
+
 .experience { 
     background-color:$darkgrey; 
 }

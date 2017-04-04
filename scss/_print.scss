@@ -3,6 +3,9 @@
 body { font-size:14pt; color:black;}
 .wrap {width: 8in; margin:.25in; min-height: 20px; height:20px;}
 .section-padding {padding:.25in}
+
+.print-button {display:none;}
+
 .print { display: initial;}
 
 a[href]:after {
@@ -22,11 +25,11 @@ blockquote { margin:0 0 1in 0;}
 }
 
 .experience {
-    position:relative; top:-95px;
+    position:relative; top:-115px;
 }
 .skills {
     page-break-after: always;
-    margin-bottom:50px;
+    margin-bottom:80px;
 }
 .skills li { color:black;} 
 .skill-percentage::after, .skill-percentage::before {
