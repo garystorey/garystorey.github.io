@@ -12,7 +12,7 @@ g.task('scss', function () {
 });
 
 g.task('watch', function () {
-    g.watch( './scss/**/*.scss', ['scss']);
+    g.watch( './scss/*.scss', ['scss']);
 });
 
-g.task('default', ['scss']);
+g.task('default', ['watch','scss']);
