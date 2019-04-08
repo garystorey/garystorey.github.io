@@ -21,6 +21,8 @@ a {text-decoration: none; color:$alt;}
 ul {list-style: none;}
 ul.bulleted {list-style: circle;}
 
+br { display:none;}
+
 blockquote  {
   font-size: 2.4rem;
   padding-left: 1.5rem;
@@ -96,7 +98,7 @@ blockquote  {
 
 }
 .job-wrap {
-    margin-bottom:2rem;
+    margin-bottom:1rem;
 }
 
 .company-description li>strong {
@@ -116,7 +118,7 @@ blockquote  {
 	margin:0;
 	padding:0;
 	position:relative;
-	list-style:none;
+    list-style:none;
 }
 .tags li, .tags span{
 	float:left;
