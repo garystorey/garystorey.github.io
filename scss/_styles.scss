@@ -75,7 +75,6 @@ blockquote {
 
 .profile {
     background-color: $white;
-    position: fixed;
 }
 
 .profile img {
@@ -133,7 +132,6 @@ blockquote {
     background-color: $darkgrey;
     display: flex;
     flex-direction: column;
-    margin-left: 36%;
 }
 .experience a {
     color: $tertiary;
@@ -462,6 +460,7 @@ blockquote {
 @media (max-width: 200px) {
     .profile {
         width: 100%;
+        position:static;
     }
     .experience {
         width: 100%;
@@ -471,6 +470,7 @@ blockquote {
 @media (max-width: 640px) {
     .profile {
         width: 100%;
+        position:static;
     }
     .experience {
         width: 100%;
@@ -488,6 +488,7 @@ blockquote {
 @media (min-width: 960px) {
     .profile {
         width: 35%;
+
     }
     .experience {
         width: 63%;
